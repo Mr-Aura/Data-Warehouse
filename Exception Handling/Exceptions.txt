@@ -1,0 +1,38 @@
+1.SyntaxError : This arises due to invalid syntax. (Cannot handle this exception.)
+eg : print("Hello) Here double inverted commas are not given after hello.
+
+2.ValueError : This arises due to wrong type of value.
+eg: a = int(input("Enter number:")) Here input given is string.
+    print(a) which will return ValueError exception.
+
+3.IOError : This arises due to Input or Output issue.
+
+4.KeyboardInterrupt : This arises when a program is terminated using keyboard combo
+(Ctrl + C)
+eg: a = 1
+    while a>0:
+    print(a)
+    a+=1
+    #While running press Ctrl + C to get this exception.
+
+5.ModuleNotFoundError : This arises due to wrong import of a module.
+eg : import Batman
+
+6.EOFError : This arises due to reaching end of the file.
+
+7.ZeroDivisionError : This arises due to dividing a number by zero.
+eg: a = 10/0
+
+8.IndexError : This arises due to wrong index.
+eg : a = [10,20,30,40,50]
+     print(a[10])
+
+9.NameError : When using an identifier having no existence.
+eg: print(a) here we are printing a without initializing it first.
+
+10.TypeError : Wrong datatype operation.
+eg: a = "Deadpool"
+    b = "Wolverine"
+    print(a*b)
+eg: a = 10
+    print(len(a))  
