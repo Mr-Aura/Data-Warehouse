@@ -1,0 +1,12 @@
+from tkinter import *
+root = Tk()
+root.geometry("744x900")
+listbox = Listbox(root)
+label = Label(root,text="Listbox",font="lucida 50 bold").pack()
+listbox.insert(END,"1.Pizza")
+listbox.insert(END,"2.Burger")
+listbox.insert(END,"3.Pasta")
+listbox.insert(END,"4.Noodle")
+listbox.insert(END,"5.French Fries")
+listbox.pack()
+root.mainloop()
