@@ -1,5 +1,0 @@
-Venom vs Carnage
-C++
-C#
-Java vs Python
-GO vs Kotlin
