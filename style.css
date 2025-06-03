@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  background-color:black;
+}
+#appName{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+#question {
+  font-size: larger;
+  color: black;
+}
+#questionNo{
+    font-size: large;
+}
+#answers {
+  padding: 10px;
+  font-weight: bold;
+}
+
+#score {
+  font-size: 1.5em;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#true{
+    background-color: green;
+    border-color: green;
+}
+#false{
+    background-color: red;
+    border-color: red;
+}
+button {
+  font-size: 1.5em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  padding: 0.2em;
+  border-radius: 10px;
+  border-width: 3px;
+}
+
+.questionCard {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  background-color: wheat;
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #fff;
+}

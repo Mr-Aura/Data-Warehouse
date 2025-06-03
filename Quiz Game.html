@@ -1,0 +1,26 @@
+<html lang="en">
+    <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='style.css'>
+    <title>True or False Game</title>
+    </head>
+  <body>
+    <h1 id='appName'>True or False?</h1>
+	<div class='questionCard'>
+    <p id='questionNo'></p>
+	<p id='question'></p>
+	</div>
+	<div id='answers'>
+        <br><br>
+	  <button id='true' onclick='trueButton();'>True</button>
+	  <span>or</span>
+	  <button id='false' onclick='falseButton();'>False</button>
+	</div>
+	<div id='score'>
+        <br>
+	  <span>Score: </span><span id='points'>0</span>
+	</div>
+    <script src = "script.js"></script>
+  </body>
+</html>
