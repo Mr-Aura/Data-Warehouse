@@ -17,4 +17,4 @@ def fibonacci_generator(number):
      
 print(fibonacci_generator(5))
 print(number_generator(5))
-print("Writing this line using github, can this cause conflict?")
+print("Conflict resolved.")
